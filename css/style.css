@@ -1,0 +1,56 @@
+body {
+    margin: 8px;
+    display: block;
+}
+
+.box1 {
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.box11 {
+    background: red;
+    transition: width 2s ease-out;
+}
+.box11:hover {
+    width: 300px;
+}
+
+.box2 {
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.box22 {
+    background: blue;
+    transition: height 2s ease-out;
+}
+.box22:hover {
+    height: 300px;
+}
+
+
+.box33 {
+    background: green;
+    transition: width 2s ease-out, height 2s ease-out;
+    
+}
+.box3 {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.box33:hover {
+    height: 300px;
+    width: 300px;
+}
